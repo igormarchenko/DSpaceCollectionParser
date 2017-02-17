@@ -4,11 +4,11 @@ package org.essuir;
  * Created by Igor on 16.02.2017.
  */
 public class Config {
-    private static final String DSPACE_URL = "http://dspace.uabs.edu.ua/";
+    private static final String DSPACE_URL = "";
     private static final Integer OFFSET = 20;
-    private static final String SUBMITTER_EMAIL = "bibisa@i.ua";
+    private static final String SUBMITTER_EMAIL = "";
     private static final String DSPACE_PATH = "/opt/dspace/bin/dspace packager";
-    private static final Long COLLECTION_ID = 317L;
+    private static final Long COLLECTION_ID = 318L;
 
     public static Long getCollectionId() {
         return COLLECTION_ID;
